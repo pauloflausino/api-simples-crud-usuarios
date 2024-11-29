@@ -1,12 +1,15 @@
 <?php
-$dsn = 'mysql:host=localhost;dbname=meu_banco;charset=utf8';
-$usuario = 'root';
-$senha = '';
+
+// Configurações de conexão com o banco de dados
+$host = 'localhost';
+$dbname = 'meu_banco';
+$username = 'root';
+$password = '';
 
 try {
-    $pdo = new PDO($dsn, $usuario, $senha);
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    die('Erro ao conectar: ' . $e->getMessage());
+    die("Erro de conexão: " . $e->getMessage());
 }
 ?>
