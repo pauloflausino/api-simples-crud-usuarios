@@ -34,11 +34,11 @@ Em resumo, a API CRUD de Usuários é uma solução prática e eficiente para ge
 Testando a API
 Use ferramentas como Postman ou cURL para testar:
 
-GET: GET localhost/api-simples/api.php
-GET com ID: GET localhost/api-simples/api.php?id=1
+GET: GET localhost/api-simples-crud-usuarios/api.php
+GET com ID: GET localhost/api-simples-crud-usuarios/api.php?id=1
 POST: Envie {"nome": "Nome 001", "email": "nome1@email.com"}
-PUT: PUT localhost/api-simples/api.php?id=1 com dados JSON.
-DELETE: DELETE localhost/api-simples/api.php?id=1
+PUT: PUT localhost/api-simples-crud-usuarios/api.php?id=1 com dados JSON.
+DELETE: DELETE localhost/api-simples-crud-usuarios/api.php?id=1
 
 Para executar um POST no Postman, siga os passos abaixo:
 
@@ -55,7 +55,7 @@ Selecione o método POST no menu suspenso ao lado da barra de URL.
 No campo de URL, insira o endereço da sua API. Por exemplo:
 arduino
 Copiar código
-localhost/api-simples/api.php
+localhost/api-simples-crud-usuarios/api.php
 Configurar o corpo da requisição:
 
 Clique na aba "Body" (Corpo) abaixo da barra de URL.
@@ -98,7 +98,7 @@ No menu suspenso à esquerda da barra de URL, selecione o método PUT.
 No campo de URL, insira o endereço da sua API, incluindo o ID do usuário que você deseja atualizar. Exemplo:
 bash
 Copiar código
-localhost/api-simples/api.php?id=1
+localhost/api-simples-crud-usuarios/api.php?id=1
 Configurar o corpo da requisição:
 
 Clique na aba "Body" (Corpo) abaixo da barra de URL.
