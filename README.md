@@ -46,6 +46,7 @@ Versatilidade: A API pode ser integrada em diferentes tipos de sistemas, como si
 
 Em resumo, a API CRUD de Usuários é uma solução prática e eficiente para gerenciar informações de usuários, oferecendo todas as funcionalidades essenciais para o controle de dados em qualquer tipo de aplicação. Ela serve como um alicerce sobre o qual você pode construir sistemas mais complexos, garantindo agilidade no desenvolvimento e flexibilidade para personalizações futuras.
 
+***Crie seu banco de Dados, execute o arquivo 'create.sql'***
 
 
 ***Testando a API***
