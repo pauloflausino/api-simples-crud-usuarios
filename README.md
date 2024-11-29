@@ -80,9 +80,6 @@ Selecione o método POST no menu suspenso ao lado da barra de URL.
 
 No campo de URL, insira o endereço da sua API. Por exemplo:
 
-arduino
-
-Copiar código
 
 localhost/api-simples-crud-usuarios/api.php
 
