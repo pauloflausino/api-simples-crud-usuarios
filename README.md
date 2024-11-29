@@ -66,7 +66,7 @@ Para executar um POST no Postman, siga os passos abaixo:
 
 ***Passos para executar o POST no Postman***
 
-Abrir o Postman: Se ainda não tiver o Postman instalado, faça o download aqui.
+Abrir o Postman:
 
 Criar uma nova requisição:
 
@@ -129,7 +129,7 @@ Copiar código
 
 Passos para executar o PUT no Postman
 
-Abrir o Postman: Se você ainda não tem o Postman instalado, faça o download aqui.
+Abrir o Postman:
 
 Criar uma nova requisição:
 
